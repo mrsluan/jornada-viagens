@@ -5,21 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="favico.png" />
     <title>Jornada Viagens</title>
   </head>
   <body>
     <header>
-      <menu>
-        <h1>Jornada</h1>
-      </menu>
+      <a class="logo" href="index.html" title="voltar para a página inicial">
+        <img
+          class="img-mobile"  
+          src="img/bussola-jornada-branca.png"
+          alt="Bussola do logo Jornada Viagens na cor branco"
+        />
+        <img
+          class="img-desktop"   
+          src="img/bussola-texto-jornada-branca.png"
+          alt="Logo Jornada Viagens na cor branco"
+        />
+      </a>
 
-      <img src="" alt="" />
+      <div class="navigation-menu">
+          <label for="menu">
+              <img src="img/menu.png" alt="Menu" />
+          </label>
+          <input type="checkbox" id="menu" hidden >
+          <nav>
+            <ul class="list-links">
+              <li><a href="blog.html"    target="_blank" title="Acessar blog">Blog</a></li>
+              <li><a href="pacotes.html" target="_blank" title="Acessar pacotes de viagem">Pacotes de viagem</a></li>
+              <li><a href="contato.html" target="_blank" title="Acessar contato">Contato</a></li>
+            </ul>
+          </nav>
+      </div>
 
-      <p>
-        Somos uma agência apaixonada por criar viagens inesquecíveis. Do destino
-        à seleção das atividades, cuidamos de todos os detalhes para que você
-        aproveite ao máximo cada momento da sua jornada!
-      </p>
     </header>
     <main>
       <section>
