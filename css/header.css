@@ -19,14 +19,14 @@ header {
     /* margin-top: 16px;     */
 }
 
-.logo-mobile {
+.img-mobile {
     display: block;
 }
 
-.logo-desktop {
+.img-desktop {
     display: none;
 }
-
+ 
 .navigation-menu {
     margin-top: 24px;
 }
@@ -86,6 +86,8 @@ nav {
     .navigation-menu li{
         margin: 0;
     }
+
+   
     
 }
 
