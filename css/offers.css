@@ -24,13 +24,13 @@
     font-weight: var(--text-weight);
 }
 
-.card section h3{
+.card header h3{
     font-size: 40px;    
     font-weight: var(--title-weight);
     margin: 8px 0; 
 }
 
-.card section span{
+.card header span{
     font-size: 32px;
     display: inline-block;    
     margin-top: 24px;

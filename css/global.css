@@ -67,11 +67,10 @@ body {
   background-color: var(--secondary-color);
   border-radius: 16px;
   line-height: 64px;
-}
-
-.button a{
   text-decoration: none ;
 }
+
+  
 
 
 
