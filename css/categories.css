@@ -58,15 +58,11 @@
     .categories-cards .card {
         width: 430px;
     }
-
-    @media screen and (min-width: 1440px) {
-        width: 280px;
-    }
     
 }
-/* 
 
-
-.categories-cards.card{
-    text-decoration: none;
-} */ */
+@media screen and (min-width: 1440px) {
+    .categories-cards .card {        
+        width: 280px;
+    }
+}
