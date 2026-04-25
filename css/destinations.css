@@ -1,0 +1,22 @@
+
+/* .destinations{
+    margin-top: 88px;
+    margin-bottom: 80px;
+} */
+
+/* .destinations{
+    margin-bottom: 104px;
+} */
+/* .destinations-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px
+} */
+.destinations .item header {
+    display: block;
+    background-color: transparent;
+    position: static;
+    padding: 0;
+    margin-bottom: 24px;   
+}
