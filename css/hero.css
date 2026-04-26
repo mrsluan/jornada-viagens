@@ -5,13 +5,20 @@
   background-size: cover;
 } */
 
-.hero{
+.hero .hero-img,
+.bottom-hero .hero-img{
+  height: 400px;
   width: 100%;
 }
+
 .hero-img {
-  width: 100%;
-  height: 400px;
   background: url('../img/hero-mobile.jpg') no-repeat center center/cover;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img{    
+    background-image: url(../img/hero-footer-mobile.jpg);
+    background-size: cover;
 }
 
 .hero h2 {
@@ -32,6 +39,12 @@
     background-size: cover;
   }
 
+  .bottom-hero .hero-img{    
+    height: 400px;
+    background-image: url(../img/hero-footer-mobile.jpg);
+    background-size: cover;
+}
+
   .hero h2 {
     padding: 88px 60px;        
     font-size: 32px;
@@ -45,6 +58,12 @@
     background: url("../img/hero-desktop.jpg") no-repeat center center/cover;
     background-size: cover;
   }
+
+  .bottom-hero .hero-img{    
+    height: 600px;
+    background-image: url(../img/hero-footer-mobile.jpg);
+    background-size: cover;
+}
 
   .hero h2 {
     padding: 88px 120px;            
