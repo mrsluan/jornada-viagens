@@ -42,7 +42,7 @@ body {
   color: var(--text-primary-color);
 }
 
-.section {
+section {
   width: 312px;
   margin: 0 auto 88px;
 }
@@ -62,6 +62,17 @@ body {
   font-weight: var(--title-weight);
   margin: 0;
   text-align: center;
+}
+
+.content-title {
+  font-size: 28px;
+  font-weight: var(--title-weight);  
+}
+
+.content-text{
+  font-size: 20px;
+  font-weight: var(--text-weight);
+  line-height: 32px;
 }
 
 .section-title hr {
@@ -91,16 +102,16 @@ body {
 
 
 @media screen and (min-width: 768px) {
-  .section {
+  section {
     width: 658px;    
   }
 
-  .section.title {
+  section.title {
     width: 100%;
     margin: 0 auto 32px;
   }
   
-  .section-title h2 {
+  section-title h2 {
     font-size: 32px;
   }
 }
@@ -108,7 +119,7 @@ body {
 
 @media screen and (min-widht: 1024px) {
   
-  .section {
+  section {
     width: 900px;    
   }
 
@@ -118,9 +129,9 @@ body {
   
 }
 
-@media screen and (min-widht: 1440px) {
+@media screen and (min-width: 1440px) {
   
-  .section {
+  section {
     width: 1200px;    
   }
 
