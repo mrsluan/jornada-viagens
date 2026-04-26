@@ -54,33 +54,23 @@
     }    
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width: 1440px) {
+   
 
-    .payments  .content-container{
-    display: flex;
-}
     .payments .content-container{
         justify-content: space-between;
-           display: flex;
+        display: flex;
     }  
+
     .payments .image-gallery{
         width: 790px;
     }
 
-
     .payments .content-container .text-content{
-        width: 360px;
+        width: 790  px;
+        margin: 0;
     }
-
-    /* .payments .content-container .image-gallery{
-        width: auto;
-    } */
-
-    /* .payments .content-container{
-        display: flex;
-        flex-direction: row;       
-        
-    } */
+    
 
 
     
