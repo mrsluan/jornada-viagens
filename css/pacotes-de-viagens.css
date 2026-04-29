@@ -1,0 +1,134 @@
+
+
+.hero-img {
+  background: url('../img/pacote-hero-mobile.jpg') no-repeat center center/cover;
+  background-size: cover;
+}
+
+.bottom-hero .hero-img{    
+    background-image: url(../img/pacote-hero-footer-mobile.jpg);
+    background-size: cover;
+}
+
+.pacote-hero{
+    width: 312px;
+    height: 330px;   
+    margin: 65px 24px; 
+    display: inline-block;
+}
+
+.pacote-hero h1{
+    color: var(--background-primary-color);
+    font-weight: var(--title-weight);
+    font-style: Bold;
+    font-size: 48px;
+    line-height: 100%;    
+    vertical-align: middle;
+
+}
+
+.pacote-hero hr{
+    width: 180px;
+    height: 4px;
+    margin: 16px 0;
+    border: none;
+    background-color: var(--secondary-color);
+}
+
+.pacote-hero p{
+    font-weight: var(--text-weight);    
+    font-size: 20px;    
+    line-height: 32px;    
+    color: var(--background-primary-color);
+    vertical-align: middle;
+}
+
+.payments .content-container h1{
+    font-weight: var(--title-weight);         
+    font-size: 40px;
+    line-height: 100%;
+    vertical-align: middle;
+    margin: 32px 24px 24px 0;
+
+}
+
+.payments .content-container .text-content{
+    margin-bottom: 24px;
+}
+.payments .content-container .image.first{
+        background-image: url(../img/house-japao-mobile.png)  ;
+        background-size: cover;
+}
+
+.payments .content-container .image.second{
+    background-image: url(../img/tower-japao-mobile.png) ;
+    background-size: cover;
+}
+
+.payments .content-container .image.thirdy{    
+    background-image: url(../img/women-japao-mobile.png) ;
+    background-size: cover;
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .hero-img {
+    height: 620px;    
+    background: url("../img/pacote-hero-tablet-desk.jpg "); 
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img{    
+    height: 400px;
+    background: url("../img/pacote-hero-footer-tablet-desk.jpg");
+    background-size: cover;
+}
+
+ .pacote-hero{
+    width: 579px;
+    height: 303px;
+    margin: 160px 60px;    
+  }
+
+
+  /* .hero h2 {
+    padding: 88px 60px;        
+    font-size: 32px;
+  } */
+
+}
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    height: 620px;    
+    background: url("../img/pacote-hero-tablet-desk.jpg") no-repeat center center/cover;
+    background-size: cover;
+  }
+
+  .bottom-hero .hero-img{    
+    height: 600px;
+    background: url("../img/pacote-hero-footer-tablet-desk.jpg");
+    background-size: cover;
+  }
+
+  .pacote-hero{   
+    margin: 160px 100px;    
+  }
+
+  
+
+
+
+  /* .hero h2 {
+    padding: 88px 120px;            
+  } */
+}
+
+@media screen and (min-width: 1920px) {
+  
+  /* .hero h2 {
+    padding: 88px 120px;            
+  } */
+}

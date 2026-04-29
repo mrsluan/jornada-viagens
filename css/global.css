@@ -47,9 +47,9 @@ section {
   margin: 0 auto 88px;
 }
 
-.section.hero {
+section.hero {
   width: 100%;
-  margin: 0;
+  /* margin: 0; */
 }
 
 .section-title{

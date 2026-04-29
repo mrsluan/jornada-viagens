@@ -32,7 +32,7 @@
 }
 
 
-@media screen and (min-width: 768) {
+@media screen and (min-width: 768px) {
   .hero-img {
     height: 620px;    
     background: url("../img/hero-tablet.jpg") no-repeat center center/cover;
@@ -52,7 +52,7 @@
 
 }
 
-@media screen and (min-width: 1024) {
+@media screen and (min-width: 1024px) {
   .hero-img {
     height: 620px;    
     background: url("../img/hero-desktop.jpg") no-repeat center center/cover;
@@ -70,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 1920) {
+@media screen and (min-width: 1920px) {
   
   .hero h2 {
     padding: 88px 120px;            
